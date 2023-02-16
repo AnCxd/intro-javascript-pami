@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Lucas-Costa-Xavier/intro-javascript-pami/issues"
   },
-  "homepage": "https://github.com/Lucas-Costa-Xavier/intro-javascript-pami#readme"
+  "homepage": "https://github.com/Lucas-Costa-Xavier/intro-javascript-pami#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
