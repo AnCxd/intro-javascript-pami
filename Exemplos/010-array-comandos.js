@@ -40,12 +40,24 @@ do {
     }
 
     if (opcao == 2) {
-        console.log('Tarefas realizadas:');
+    /*   console.log('Tarefas realizadas:');
         tarefas.forEach(function(tarefa) {
             if (tarefa.realizada) {
                 console.log(`${tarefa.id} - ${tarefa.tarefa}`);
             }
-        });
+        });*/
+        console.log('----');
+        console.log('Tarefas realizadas: ');
+        console.log('----');
+        for (const i in tarefas) {
+            if (tarefas[i].realizada == true){
+                console.log('ID: ' + tarefas[i].id);
+                console.log('TAREFA: ' + tarefas[i].tarefa);
+                console.log('Realizada: ' +(tarefas[i].realizada? 'sim' : 'não'));
+                console.log.apply('---');
+                
+            }
+        }
     }
 
     if (opcao == 3) {
